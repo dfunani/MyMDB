@@ -1,0 +1,368 @@
+/*App Styles*/
+
+.App
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  
+  height: max-content;
+}
+
+.App-Header
+{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #21222A;
+  height: 96px;
+}
+
+.App--Title
+{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  font-size: 44px;
+  padding-left: 10px;
+  
+  color: #61DAFB;
+}
+
+.App--Title:hover
+{
+color: aliceblue;
+}
+
+.App--Menu
+{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  width: fit-content;
+  justify-content: flex-end;
+}
+
+.App--Menu-Tab
+{
+  width: 86px;
+  box-shadow: black 1px 1px 0px 0px;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+  color: aliceblue;
+  outline-radius: 5px;
+}
+
+.App--Menu-Tab:hover
+{
+  color: #61DAFB;
+}
+
+.Pressed
+{
+   box-shadow: inset #61DAFB 0px 0px 1px 1px;
+   color: #61DAFB;
+  }
+
+  .Pressed:hover
+  {
+    color: white;
+  }
+
+/* Welcome Page Styles */
+
+.App-Welcome
+{
+font-size: 40px;
+display: flex;
+flex-direction: column;
+
+text-align: center;
+height: 100%;
+min-height: 500px;
+background-color: #282D35;
+color: aliceblue;
+}
+
+.App--Welcome-Title
+{
+  padding-top: 50px;
+  
+  height: 100%
+}
+
+.App--Welcome-Title h2
+{
+  color: #61DAFB;
+  text-shadow: 2px 2px #21222A;
+}
+
+
+/* Main Styles */
+.App-Main
+{
+  height:100%;
+  width: 100%;
+  min-height: 500px;
+  background: #282D35;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  
+}
+.App--Main-Input{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+height: 39px;
+
+}
+.App--Main-Input input {
+  
+width: 100%;
+background: #282D35;
+color: aliceblue;
+outline-radius: 5px;
+
+box-shadow: inset 1px 1px 1px 1px  #171a1f;
+padding: 10px;
+}
+
+.App--Main-Input button {
+  
+  outline-radius: 5px;
+min-width: 20%;
+width: 40%;
+background-color: #61DAFB;
+font-weight: bold;
+color: #171a1f;
+box-shadow: 2px 2px 1px 1px  #171a1f;
+
+}
+
+button:hover
+{
+  color: aliceblue;
+  box-shadow:  2px 2px 2px 2px #61DAFB;
+}
+
+.App--List
+{
+  height: 100%;
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.App--List-Result
+{
+  
+  height: 450px;
+ width: 350px;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ padding-block: 50px;
+}
+
+.App--List-Result:hover
+{
+  color: #61DAFB;
+}
+
+.App--List-Result img
+{
+  
+  height: 100%;
+ width: 100%;
+}
+
+.App--List--ImgDetail
+{
+  padding-block: 5px;
+}
+
+
+
+
+/* Footer Styles*/
+
+footer{
+  font-size: 19px;
+  font-weight: bold;
+  font-style: italic;
+  background: #171a1f;
+width: 100%;
+text-align: center;
+color: aliceblue;
+
+display: flex;
+justify-content: center;
+}
+
+.App-Footer
+{
+width: fit-content;
+}
+
+.App-Footer:hover
+{
+color: #61DAFB;
+}
+
+
+/* App Fetch's Result Styles */
+
+.App-Result
+{
+  width: 100%;
+  overflow-wrap: break-word;
+  color: aliceblue;
+  background: #282D35;
+  min-width: 100%;
+  
+}
+
+.App--Display-Row
+{
+}
+
+
+.App--Row
+{
+  
+  overflow-x: scroll;
+}
+
+
+.App--Display
+{
+  display: flex;
+  margin: 20px auto 0px auto;
+width: 60%;
+}
+
+h1{
+  margin-top: 0px;
+}
+.App--Display-1
+{
+  outline: #61DAFB 2px solid;
+  text-align: center;
+  display: flex;
+}
+
+.App--Display-2
+{outline: #61DAFB 2px solid;
+  display: flex;
+  margin-left: -25px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 19px;
+text-align: start;
+}
+
+.App--Shows
+{
+display: flex;
+flex-direction:  column;
+align-items: center;
+text-align: center;
+}
+
+.App--Display-Image
+{
+  width: 250px;
+  height: 350px;
+}
+
+li{
+  list-style: none;
+  padding-block: 20px;
+  
+}
+.App--Card img
+{
+  width: 250px;
+  height: 350px;
+}
+
+.App--Card
+{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App--Row-Cards
+{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  width: fit-content;
+}
+
+.App--Row-Table
+{
+
+  
+}
+
+
+.App--Table
+{
+  
+  display: flex;
+  justify-content: center;
+}
+
+table > input{
+  height: 50px;
+  margin-bottom: 20px;
+  border: #61DAFB 1px solid;
+  padding-left: 10px;
+}
+
+table
+{
+  
+ width: 750px;
+ 
+}
+
+th{
+  background-color: lightgray;
+  
+ padding-block: 10px;
+ height: 39px;
+ color: #171a1f;
+}
+td
+{
+  border-bottom: #61DAFB solid 2px;
+  height: 69px;
+}
